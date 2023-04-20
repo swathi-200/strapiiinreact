@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "todoslists",
+  "info": {
+    "singularName": "todoslist",
+    "pluralName": "todoslists",
+    "displayName": "Todoslist"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Detail": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    }
+  }
+}

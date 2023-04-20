@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "listtodos",
+  "info": {
+    "singularName": "listtodo",
+    "pluralName": "listtodos",
+    "displayName": "listtodo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "item": {
+      "type": "string"
+    }
+  }
+}
